@@ -13,6 +13,10 @@
         <option value="$PROJECT_DIR$/springboot-testboot01/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-testswagger/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-redis-Bloom/pom.xml" />
+        <option value="$PROJECT_DIR$/redis-001-jedis/pom.xml" />
+        <option value="$PROJECT_DIR$/redis-002-HyperLogLog_GEO_Bitmap/pom.xml" />
+        <option value="$PROJECT_DIR$/BoolmFilter/pom.xml" />
+        <option value="$PROJECT_DIR$/Guava/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

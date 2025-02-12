@@ -8,9 +8,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springboot-redis-Bloom" />
+        <module name="redis-001-jedis" />
+        <module name="Guava" />
+        <module name="BoolmFilter" />
         <module name="springboot-testswagger" />
+        <module name="redis-002-HyperLogLog_GEO_Bitmap" />
       </profile>
-      <profile name="Annotation profile for springboot-redis-Bloom" enabled="true">
+      <profile name="Annotation profile for springboot-redis" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
@@ -27,6 +31,10 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="BoolmFilter" options="-parameters" />
+      <module name="Guava" options="-parameters" />
+      <module name="redis-001-jedis" options="-parameters" />
+      <module name="redis-002-HyperLogLog_GEO_Bitmap" options="-parameters" />
       <module name="springboot-redis" options="-parameters" />
       <module name="springboot-redis-Bloom" options="-parameters" />
       <module name="springboot-testboot01" options="-parameters" />
